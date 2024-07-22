@@ -51,6 +51,10 @@ public class Time {
 		this.hour = hour ; 
 	}
 	
-	
+	public String toString() {
 
+		return String.format("%02d:%02d:%02d", hour, minute, second);
+
+}
+	
 }
